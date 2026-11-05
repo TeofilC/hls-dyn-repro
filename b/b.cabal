@@ -1,0 +1,8 @@
+cabal-version: 3.0
+name: b
+version: 0
+library
+  exposed-modules: B
+  hs-source-dirs: src
+  build-depends: base, a
+  default-language: GHC2021
